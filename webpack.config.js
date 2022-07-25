@@ -49,4 +49,7 @@ module.exports = {
     filename: "telegram.js",
     path: path.resolve(__dirname, "browser"),
   },
+  optimization: {
+    minimize: false,
+  },
 };
